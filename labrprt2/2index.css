@@ -1,0 +1,368 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif ;
+    background-image: linear-gradient(to right, rgb(165, 16, 148) , rgb(19, 125, 167));
+}
+.width-100{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 1500px;
+    margin: 0px auto;
+}
+.top-header{
+    
+    background: skyblue;
+    padding: 5px 0px;
+    height: 120px;
+    width:40%;
+    margin-top: 2%;
+    margin-left: 25%;
+    border-bottom: 5px solid orangered;
+    border-radius: 500px;
+
+}
+.me{
+    height: 150px;
+    float: left;
+    border-radius: 180px;
+    box-shadow: 2px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.mine{
+    
+    background:none;
+}
+.na{
+    margin-right:55%;}      
+.name{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20%;
+    color: orangered;
+    border-radius: 30px;
+    padding: 10px;
+    width: 550px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+.notification {
+    left: 30%;
+    background-color: skyblue;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid orangered;
+  }
+  
+  .notification:hover {
+    background: orangered;
+    border: solid black;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -25px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: skyblue;
+    color: orangered;
+    border: solid orangered;
+  }
+.advisor{
+    margin-left: 20%;
+    color: rgb(50, 16, 4);
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5px;
+    width: 250px;
+    margin-top:1% ;
+    font-size: 20px;
+    border-bottom: solid orangered;
+    text-align: center;
+
+}
+.header-menu{
+    position: relative;
+    margin-left: 4%;
+    width: 350px;
+    height: 620px;
+    box-shadow: 5px 4px 4px 4px orangered;
+    background-color: skyblue;
+    border-radius: 100px;
+    padding: 30px;
+
+
+}
+
+.logo{
+    width: fit-content;
+
+}
+.main-menu{
+    list-style:none;
+    float: left;
+    margin-left: 2%;
+    color: orangered;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    
+
+}
+.home{
+    margin-top: 10%;
+    box-shadow: 0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.home:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.tch{
+    margin-top: 10%;
+    box-shadow: 0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.tch:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.enroll{
+    margin-top: 5%;
+    box-shadow: 0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.enroll:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.std{
+    margin-top: 5%;
+    box-shadow: 0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.std:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.evalu{
+    margin-top: 5%;
+    box-shadow: 0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.evalu:hover{background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.clss{
+    
+    margin-top: 5%;
+    box-shadow: 0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.clss:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.exmr{
+    margin-top: 5%;
+    box-shadow:0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.exmr:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.rtn{
+    margin-top: 5%;
+    box-shadow:0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.rtn:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+.rprts{
+    margin-top: 5%;
+    box-shadow: 0px 3px 8px 3px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+
+}
+.rprts:hover{
+    background-color: orangered;
+    color: skyblue;
+    box-shadow: 0px 3px 8px 3px black;
+
+
+}
+
+
+
+
+
+.main-menu a{
+
+}
+.main-menu li{
+
+
+
+}
+.signout{
+    margin-left: 35%;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-align: center;
+    height: 30px;
+    border-color: orangered;
+    background-color: skyblue;
+    
+
+}
+
+.signout:hover{
+    background-color: orangered;
+    border-color: black;
+}
+.margin-top-50{
+    margin-left: 40%;
+    margin-top: 3%;
+    
+
+}
+.width-66{
+    width: 65%;
+}
+.latest-news{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    padding:20px ;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 3px 8px 3px black;
+    border: solid orangered;
+    background-color: skyblue;
+
+}
+.heading-sect{
+    width: 100%;
+    float: left;
+    border-bottom: solid orangered;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    border: 3px solid orangered;
+    padding-left: 5px;
+    padding-top: 15px;
+    background-color: rgb(163, 9, 163);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 3px 8px 3px black;
+} 
+.head-tittle{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: center;
+    
+
+}
+.latest-news-ul{
+    padding: 0px;
+    list-style: none;
+    line-height: 70px;
+
+
+}
+.library {
+    left: 60%;
+    width: 150px;
+    height: 50px;
+    background-color: skyblue;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid orangered;
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+
+.library:hover {background: orangered;
+    border: solid black;
+
+
+}
+

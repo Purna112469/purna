@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(to bottom left,white, rgb(24, 98, 128));
+}
+.main{
+    width: 100%;
+    background:url(portal2.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.form{
+    width: 350px;
+    height: 450px;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left: 790px;
+    border-radius: 10px;
+    padding: 20px;
+    color: orangered;
+    
+
+}
+.icon{
+height: 100px;
+width: 100px;
+margin-left: 35%;
+border-radius: 55%;
+
+}
+.form h1{
+    width: 250px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 30px;
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding: 8px;
+}
+.form input{
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid skyblue;
+    border-top: none;
+    border-right: none;
+    border-left: none ;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.image img{
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 400px;
+    height: 330px;
+    
+}
+#contents{
+    width: 250px;
+    padding-left: 1%;
+    border-radius: 20%;
+    background-color: rgb(37, 135, 174);
+    height: auto;
+    margin-left: 8.5%;
+    margin-top: .1%;
+    font-size: 80px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btn{
+    background-color: skyblue;
+    height: 25px;
+    width: 80px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color:orangered;
+}
+.frgt{
+    height: 25px;
+    width: 10px;
+    font-size: 15px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.frgt:hover{
+    background-color: orangered;
+}
