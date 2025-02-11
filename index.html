@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purna's portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/3a8e87e5f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/sign.webp" class="logo" alt="Logo">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Flex Container for Header Text and Image -->
+      <div class="header-content">
+        <div class="header-text">
+          <h1>Namoshkar ,<br> I'm  <span> Purna Chakraborty</span> from Bangladesh || Aspiring CompSci student</h1>
+        </div>
+        <div class="hobbies-image">
+          <img src="images/purnaimage.jpg" alt="Photography">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img class="user" src="images/Me.jpg" alt="Purna's Photo">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Hello, I'm Purna—a Computer Science student with a strong interest in programming and system design. I enjoy solving challenging problems and building efficient, user-friendly applications. My focus is on applying computer science fundamentals to practical projects and continuously expanding my skills.
+          </p>
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Acquainted</p>
+          </div>
+          <div class="tab-contents active-tab" id="education">
+            <ul>
+              <li><span>2023-current</span> <br>Bsc in Computer Science and Engineering</li>
+              <li><span>2022</span> <br>HSC from Dewan Hat City Corparetion College</li>
+              <li><span>2020</span> <br>SSC from Boilchori Nazmunnessa High School</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="skills">
+            <ul>
+              <li><span>HTML</span> <br> Structures web content using elements like headings, paragraphs, images, and links.</li>
+              <li><span>CSS</span> <br> Styles and positions HTML elements to create visually appealing and responsive designs.</li>
+              <li><span>BOOTSTRAP</span> <br> Provides a responsive, mobile-first framework with pre-designed components and a grid system.</li>
+              <li><span>JAVASCRIPT</span> <br> Makes web pages interactive, dynamic, and responsive to user actions.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Spring 2024</span> <br>Object Oriented Programming and Internet Programming</li>
+              <li><span>Fall 2023</span> <br>Data Structure and Competitive Programming</li>
+              <li><span>Spring 2023</span> <br>Programming Fundamentals and Computer Fundamentals and Ethics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work1.png" alt="Student profile">
+          <div class="layer">
+            <h3>Student profile</h3>
+            <p>This is a student profile website of Premier Univarsity, Chittagong. Here students can login and view academic information.</p>
+            <a href="labrprt2/1index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work2.png" alt="Lab Work">
+          <div class="layer">
+            <h3>Lab Work</h3>
+            <p>It is my first lab work of the Internet Programming course.</p>
+            <a href="labrprt1/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work3.png" alt="JavaScript project">
+          <div class="layer">
+            <h3>JavaScript</h3>
+            <p>It is my ongoing JavaScript project.</p>
+            <a href="labrprt3/1index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">see more</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> purnachakraborty1002@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> Mobile no. 01845552424</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+</html>
